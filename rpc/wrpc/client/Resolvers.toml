@@ -1,0 +1,7 @@
+[[resolver]]
+enable = false
+address = "http://127.0.0.1:8888"
+
+[[group]]
+template = "https://*.vecnoscan.org"
+nodes = ["seed"]
