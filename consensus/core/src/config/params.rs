@@ -454,7 +454,7 @@ impl From<NetworkId> for Params {
 }
 
 pub const MAINNET_PARAMS: Params = Params {
-    peers: &["159.198.42.49:7111","209.74.87.79:7111","89.162.117.198:7111"],
+    peers: &["159.198.42.49:7111","209.74.87.79:7111","159.198.43.32:7111"],
     net: NetworkId::new(NetworkType::Mainnet),
     genesis: GENESIS,
     timestamp_deviation_tolerance: TIMESTAMP_DEVIATION_TOLERANCE,
