@@ -12,7 +12,6 @@ import {
     vecnoToVeni,
     createTransactions,
     initConsolePanicHook,
-    IUtxoProcessorEvent,
     IPendingEvent,
     IDiscoveryEvent,
     IMaturityEvent,

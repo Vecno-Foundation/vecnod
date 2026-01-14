@@ -1,6 +1,6 @@
 {
   "name": "vecno",
-  "version": "0.13.5",
+  "version": "0.0.1",
   "description": "Vecno SDK",
   "main": "index.js",
   "scripts": {
@@ -23,6 +23,6 @@
   "homepage": "https://github.com/Vecno-Foundation/vecnod#readme",
   "dependencies": {
     "websocket": "1.0.34",
-    "vecno-wasm": "0.13.5"
+    "vecno-wasm": "0.0.1"
   }
 }

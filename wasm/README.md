@@ -34,7 +34,7 @@ The SDK is built as 4 packages for Web Browsers as follows:
 
 The following is a brief overview of the SDK folder structure (as available in the release):
 
-- `web/vecnoa` - **full** Vecnod WASM32 SDK bindings for use in web browsers.
+- `web/vecno` - **full** Vecnod WASM32 SDK bindings for use in web browsers.
 - `web/vecno-rpc` - only the RPC bindings for use in web browsers (reduced WASM binary size).
 - `nodejs/vecno` - **full** Vecno WASM32 SDK bindings for use with NodeJS.
 - `docs` - Vecnod WASM32 SDK documentation.

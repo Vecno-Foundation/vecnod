@@ -166,7 +166,6 @@ impl UtxoProcessor {
     /// and the wallet subsystem emits the transaction maturity event.
     ///
     /// @see {@link TransactionRecord}
-    /// @see {@link IUtxoProcessorEvent}
     ///
     /// @category Wallet SDK
     ///
@@ -183,7 +182,6 @@ impl UtxoProcessor {
     /// and the wallet subsystem emits the transaction maturity event.
     ///
     /// @see {@link TransactionRecord}
-    /// @see {@link IUtxoProcessorEvent}
     ///
     /// @category Wallet SDK
     ///

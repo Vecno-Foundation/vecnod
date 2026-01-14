@@ -1,6 +1,6 @@
 globalThis.WebSocket = require('websocket').w3cwebsocket; // W3C WebSocket module shim
 
-const vecno = require('../vecno/vecno_wasm');
+const vecno = require('../vecno/vecno');
 const { parseArgs, guardRpcIsSynced } = require("../utils");
 const {
     RpcClient, UtxoSet, Address, Encoding, UtxoOrdering,

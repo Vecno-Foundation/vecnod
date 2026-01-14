@@ -65,9 +65,9 @@ globalThis.WebSocket = require('websocket').w3cwebsocket;
 <html>
     <head>
         <script type="module">
-            import * as vecno_wasm from './vecno/vecno-wasm.js';
+            import * as vecno from './vecno/vecno.js';
             (async () => {
-                const vecno = await vecno_wasm.default('./vecno/vecno-wasm_bg.wasm');
+                const vecno = await vecno.default('./vecno/vecno_bg.wasm');
                 // ...
             })();
         </script>
